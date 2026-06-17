@@ -12,6 +12,8 @@ Enterprise Repository Browser untuk mendistribusikan software, firmware, ISO ins
 
 GIC Repository adalah aplikasi repository berbasis PHP yang ringan, tanpa database, dan dapat digunakan untuk menampilkan file repository yang tersimpan secara lokal maupun pada storage eksternal seperti TrueNAS melalui NFS mount.
 
+<img width="1355" height="647" alt="image" src="https://github.com/user-attachments/assets/ad84810c-a5ac-419c-b368-67cfca6b43ca" />
+
 Dirancang untuk kebutuhan internal perusahaan dalam mendistribusikan:
 
 - Software Installer
@@ -290,7 +292,6 @@ Aplikasi telah dilengkapi dengan:
 
 Kamrang
 Infrastructure Engineer
-
 PT. Global Inti Corporatama
 
 ---
@@ -298,7 +299,5 @@ PT. Global Inti Corporatama
 ## License
 
 Internal Use Only
-
 Copyright © 2026 Kamrang
-
 All Rights Reserved.

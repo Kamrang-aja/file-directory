@@ -82,7 +82,7 @@ repository/
 Repository disimpan langsung pada server web.
 
 ```text
-/var/www/html/gic-repository/repository
+/var/www/html/file-directory/repository
 ```
 
 ### TrueNAS Storage
@@ -113,9 +113,9 @@ $localPath   = __DIR__ . '/repository';
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-repository/gic-repository.git
+git clone https://github.com/your-repository/file-repository.git
 
-cd gic-repository
+cd file-repository
 ```
 
 ### Set Permission
@@ -133,7 +133,7 @@ sudo chmod -R 755 .
 DocumentRoot:
 
 ```text
-/var/www/html/gic-repository
+/var/www/html/file-repository
 ```
 
 ### HTTP Redirect to HTTPS
@@ -162,7 +162,7 @@ DocumentRoot:
     SSLCertificateFile /etc/letsencrypt/live/repo.domain.com/fullchain.pem
     SSLCertificateKeyFile /etc/letsencrypt/live/repo.domain.com/privkey.pem
 
-    <Directory /var/www/html/gic-repository>
+    <Directory /var/www/html/file-repository>
         AllowOverride All
         Require all granted
     </Directory>
@@ -214,7 +214,7 @@ server {
 
     server_name repo.domain.com;
 
-    root /var/www/html/gic-repository;
+    root /var/www/html/file-repository;
 
     index index.php;
 
@@ -299,6 +299,6 @@ PT. Global Inti Corporatama
 
 Internal Use Only
 
-Copyright © 2026 PT. Global Inti Corporatama
+Copyright © 2026 Kamrang
 
 All Rights Reserved.
